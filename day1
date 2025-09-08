@@ -1,1 +1,166 @@
-python - python is a high level ,interpreted , oops language , dynamically typep. platform inde
+python - python is a  simple,high level programming language and easy to read and write.
+ It is interpreted , dynamically typed, platform independent and easy syntax to read and write.
+  P- portable
+  Y- yet simple (easy and clean syntax      )
+  T- typed dynamically
+  H- high level interpreted language
+  O- oops
+  N- numerous libraries.
+we use intendation(one tab space) for considering each line. python programs executes line by line only.
+
+key features:
+  s-simple syntax (most words in english)
+  l-large libraries (all readymade tools)
+  i-interpreted (easy debuggging ,line by line execution))
+  c- cross platform (runs anywhere like macos,windows,linux etc)
+  e-easy to learn and use .
+executes faster compare to  some other programming language.
+difference between python 2 and python 3:
+
+  py2= old and outdated method,less strict,ascii default
+  p-print = "hello"  no brackets
+  r-range = use list() ( store more data ex; fruits,veg,cosmetics)
+  i-input =raw_input
+  n-next =5/2(provides integer value =2)
+  t-text = strings are ascii by default.
+
+  python3:
+  mocern,clean and future proof
+  print= functions with brackets()
+  range=use iterator(store the value one by one . ex; fruits in: fruits) its saves memory
+  input= input is always string()
+  next= 5/2 (provides true value 2.5)
+  text= strings are unicode by default().
+
+python applications:
+  pep 8= python enhancement proposals( its the stylish guide to write clean , neat simple readable, consistent code)
+web applications, desktop applications.
+ai,ml,deep learning
+mobile applications
+web development
+iot,automation,graphics etc
+
+comments:
+ its helps us to understand easily as well as user.
+ for future use.
+They are part of the code but they dont consider at the execution time.
+ 2 types :
+    single line comment.  use #
+    multi line comment. use(''' ''') (""" """) use 3 single or double quotes
+
+keywords:
+  they are reserved words they are using for the specific tasks.
+  they can't  be used as identifiers (variables , function names).
+ ex: true ,or, false, if, if else,catch , except , finally,while.. etc
+
+variables:
+  variables are used as a container to store the data . (it helps to find out easily without confusion).
+ ex; a=5 (a is variable , 5 is the data)
+2 types of variables: 
+  valid variable declaration: 
+    a=5
+    A=45
+    num1=56
+    Num2=15
+    emp_id=124
+    emp_name="shree" or 'shree'
+    _emp_no_=09876543988
+        
+  invalid variable declaration:
+    # apart from under score_ we cant use anything as a variable.
+    1n=67
+    str#name@="shree"
+    stu id=345 # space is not valid
+
+data types :
+  its pre-defined components and specify the data catagory.
+    categorical-"string" (too difficult to work with that)
+    numeric data-()for doing calculation.
+ # when we dont perform any calculation by using numbers then we go for string. 
+    name= string, age=int , salary= float, pho= str, height, weight= float.
+    dob= string(alpha numeric) ex: 22-12-1999 or 22nd dec 1996 , dec 22nd 1996
+   #we dont have directly dob but we convert to data by using libraries).
+
+in python 2 data types:
+    numeric data types;
+        int, float, complex(5j+i)(real+imaginary); # assign single values
+        string, boolean(true or false)
+    special datatypes(ds= data structure)
+        list 
+        tuple
+        set
+        dict
+
+in python , we store  line by line and single line also.
+    a=4;b=5;g=6
+    a,b,c=4,5,6
+
+FUNCTIONS:
+    input function() = input()  # we need to getting anything from the user.
+    output function()= print()  #anything need to display to the user.
+     a= input("enter the value a:") we write this in string for our understanding only.
+    types of numbers: strr+str =string concadination.
+ we can use print statement in 2 ways
+     1. .format method:
+        print("sum of {}+{}={}" .format (x,y,x+y)
+
+    2. f string method:
+        print(f" sum of {x}+{y}={x+y}")
+
+OPERATORS:
+    1. arithmetic operators 
+    (+,-,*,/,//,**,%) //=only quotient values , **=power value , %= for reminder
+    2. comparision operators
+            used to compare to values always.
+     another name relational operators
+    >,<,>=,<=,==,!=(not equal to)
+    check the condition it returns alwayds  boolean (true or false).
+    
+    logical operators:
+    and  TRUE if both                         5>4 and 5<7  true
+    or   true if atleast one                   4>7 or 6<8  true
+    not  reverse(true mean false ,viseversa)   not 5>2      False
+
+    assignment operators:
+    (= assign x=5,
+    += add and assign (x= x+5)
+    -= sub and assign(x= x-5)
+    *= mul and assign (x= x*5)
+    /= divide and assign(x = x/6)
+
+    identity operators: 
+    is       true if same subject
+    is not   true if not same subject
+
+    bitwise operators:( works on bits 0 & 1)
+    &      AND
+    `
+    ^      XOR
+    ~       NOT
+    <<     left shift
+    >>     right  shift
+    membership operators:
+    in     true if value in sequence     b in ball
+    not in true if value not in sequence  b not in ball 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
